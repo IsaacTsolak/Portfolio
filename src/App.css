@@ -1,0 +1,74 @@
+.project-card {
+  background-color: #0d150d;
+  border: 1px solid #1a4d1a;
+  border-radius: 2px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.project-card:hover {
+  border-color: #33ff33;
+  box-shadow: 0 0 12px rgba(51, 255, 51, 0.2);
+}
+
+.project-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #55ff55;
+}
+
+.project-card h3::before {
+  content: "> ";
+  color: #22cc22;
+}
+
+.project-card p {
+  color: #2ecc2e;
+  margin-bottom: 1rem;
+}
+
+.project-card a {
+  color: #33ff33;
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid #33ff33;
+  padding: 4px 10px;
+  display: inline-block;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.project-card a:hover {
+  background-color: #33ff33;
+  color: #0a0e0a;
+}
+
+.boot-screen {
+  min-height: 100vh;
+  background-color: #0a0e0a;
+  color: #33ff33;
+  font-family: 'JetBrains Mono', monospace;
+  padding: 2rem;
+  font-size: 1.1rem;
+}
+
+.boot-screen p {
+  margin-bottom: 0.5rem;
+  opacity: 0;
+  animation: fadeIn 0.3s forwards;
+}
+section a {
+  color: #33ff33;
+  text-decoration: none;
+  border-bottom: 1px dashed #22cc22;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+section a:hover {
+  color: #7fff7f;
+  border-color: #7fff7f;
+}
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
