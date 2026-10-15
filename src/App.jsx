@@ -67,8 +67,8 @@ function App() {
   return (
     <div>
       <header>
-        <h1>Isaac</h1>
-        <p>ML Engineer & builder</p>
+        <h1>Isaac Tsolak</h1>
+        <p>AI Engineer</p>
       </header>
 
       <section>
@@ -77,7 +77,7 @@ function App() {
         I build machine learning systems end-to-end from feature engineering and model 
         selection to the interfaces people actually use. My work spans time-series forecasting 
         (potential publication on solar energy prediction), NLP, and unsupervised learning, using Python, 
-        scikit-learn, and React. Before and during my MS in Applied Computer Science, I spent a decade in 
+        scikit-learn, and React. Before and during my MS in Applied Computer Science, I spent half adecade in 
         client-facing roles, most recently as Head Bartender and previouly earned a psychology degree from Boston University 
         along the way. That combination shapes how I build: technically rigorous, but always with the end user in mind.
         </p>
