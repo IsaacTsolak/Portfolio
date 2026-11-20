@@ -58,6 +58,54 @@ header p {
   color: #22cc22;
 }
 
+/* links row under the title */
+.header-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem 1.5rem;
+  margin-top: 1.75rem;
+}
+
+.header-links a {
+  color: #33ff33;
+  text-decoration: none;
+  font-size: 0.95rem;
+  border-bottom: 1px dashed #22cc22;
+  padding-bottom: 2px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.header-links a:hover {
+  color: #7fff7f;
+  border-color: #7fff7f;
+}
+
+.header-links .resume-button {
+  border: 1px solid #33ff33;
+  padding: 6px 14px;
+  font-weight: 700;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.header-links .resume-button:hover {
+  background-color: #33ff33;
+  color: #0a0e0a;
+  text-shadow: none;
+}
+
+/* first About paragraph: one-line summary that stands out */
+section p.lead {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #eef5ee;
+}
+
+section p + p {
+  margin-top: 1rem;
+}
+
 header p::after {
   content: "▊";
   animation: blink 1s step-start infinite;

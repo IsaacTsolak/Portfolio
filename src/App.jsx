@@ -79,17 +79,30 @@ function App() {
       <header>
         <h1>Isaac Tsolak</h1>
         <p>AI Engineer</p>
+        <nav className="header-links">
+          <a href="https://github.com/IsaacTsolak" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/isaactsolak" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="mailto:isaac.tsolak@gmail.com">Email</a>
+          <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">Résumé ↓</a>
+        </nav>
       </header>
 
       <section>
         <h2>About</h2>
+        <p className="lead">
+          I build machine learning systems end to end, from feature engineering and model
+          selection to the interfaces people actually use.
+        </p>
         <p>
-        I build machine learning systems end-to-end from feature engineering and model 
-        selection to the interfaces people actually use. My work spans time-series forecasting 
-        (potential publication on solar energy prediction), NLP, and unsupervised learning, using Python, 
-        scikit-learn, and React. Before and during my MS in Applied Computer Science, I spent half a decade in
-        client-facing roles, most recently as Head Bartender, and previously earned a psychology degree from Boston University 
-        along the way. That combination shapes how I build: technically rigorous, but always with the end user in mind.
+          My work spans time-series forecasting (including a paper submitted to AAAI on solar
+          power prediction), NLP, and unsupervised learning, using Python, scikit-learn, and React.
+          I hold an MS in Applied Computer Science from Wentworth Institute of Technology
+          and a BA in Psychology from Boston University.
+        </p>
+        <p>
+          Alongside my studies, I spent half a decade in client-facing roles, most recently as
+          Head Bartender. That combination shapes how I build: technically rigorous, but always
+          with the end user in mind.
         </p>
       </section>
 
