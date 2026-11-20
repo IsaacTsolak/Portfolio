@@ -25,8 +25,12 @@
 }
 
 .project-card p {
-  color: #2ecc2e;
-  margin-bottom: 1rem;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.97rem;
+  line-height: 1.7;
+  color: #b9c7b9;
+  text-shadow: none;
+  margin-bottom: 1.1rem;
 }
 
 .project-card a {
