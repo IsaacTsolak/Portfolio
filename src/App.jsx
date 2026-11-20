@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import ProjectCard from './ProjectCard'
-import BinaryRain from './BinaryRain'
+import TrainingLog from './TrainingLog'
 
 const projects = [
   {
@@ -83,7 +83,7 @@ function App() {
 
   return (
     <>
-    <BinaryRain />
+    <TrainingLog />
     <div className="page">
       <header>
         <h1>Isaac Tsolak</h1>

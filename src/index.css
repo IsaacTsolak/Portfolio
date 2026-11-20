@@ -162,12 +162,36 @@ body::after {
 section p a {
   font-family: 'JetBrains Mono', 'Courier New', monospace;
 }
-/* falling 1s and 0s sit behind everything */
-.binary-rain {
+/* faint training log scrolling behind everything */
+.training-log {
   position: fixed;
   inset: 0;
   z-index: 0;
   pointer-events: none;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.5rem 2rem;
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-size: 12px;
+  line-height: 1.7;
+  white-space: pre;
+  color: #33ff33;
+  opacity: 0.1;
+  text-shadow: none;
+  /* older lines fade out toward the top */
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 55%);
+  mask-image: linear-gradient(to bottom, transparent 0%, #000 55%);
+}
+
+.training-log-current {
+  color: #8dff8d;
+}
+
+.training-log-cursor {
+  animation: blink 1s step-start infinite;
+  margin-left: 2px;
 }
 
 .page {
