@@ -4,9 +4,19 @@ import ProjectCard from './ProjectCard'
 
 const projects = [
   {
+    title: "Forecasting or Estimating? Irradiance Leakage in Solar Forecasting",
+    description: "Submitted to AAAI (time series analysis track). A revised and extended version of my master's thesis, with reproducible code. The paper shows how using target-hour irradiance quietly turns 'forecasting' into 'estimating' in hourly solar power prediction. Uses six years of one-minute data from a 10 MW solar plant plus NASA POWER weather data to compare linear regression, XGBoost, LSTM and MLP models, with and without the leaked feature, at 1–24 hour horizons. Results are backed by Diebold–Mariano significance tests and data checks for clock alignment, sensor gaps, temperature and snow.",
+    link: "https://github.com/IsaacTsolak/pv-forecasting-or-estimating"
+  },
+  {
     title: "Solar Power Forecasting with AI",
-    description: "Thesis research applying ML models (XGBoost, LSTM, Random Forest, and more) to forecast solar power generation from historical output and NASA weather data. XGBoost achieved a 71.2% error reduction over baseline, with an R² of 0.987 — pending publication at the North American Power Symposium 2026.",
+    description: "My master's thesis at Wentworth Institute of Technology, applying ML models (XGBoost, LSTM, Random Forest, and more) to forecast solar power generation from historical output and NASA weather data. XGBoost achieved a 71.2% error reduction over baseline, with an R² of 0.987. This work became the foundation for my AAAI submission, Forecasting or Estimating?",
     link: "https://github.com/IsaacTsolak/solar-forecasting-thesis"
+  },
+  {
+    title: "Job Application Tracker Agent",
+    description: "A personal agent that reads my Gmail through the Gmail API, picks out job-application emails, and tracks where each application stands. A rule-based classifier tags confirmations, rejections and interview invites and pulls out company names. Anything it isn't sure about gets flagged for review instead of guessed. Results go into a duplicate-safe SQLite store, and every component has its own tests.",
+    link: "https://github.com/IsaacTsolak/app-tracker"
   },
   {
     title: "NLP Question Generator",
@@ -77,8 +87,8 @@ function App() {
         I build machine learning systems end-to-end from feature engineering and model 
         selection to the interfaces people actually use. My work spans time-series forecasting 
         (potential publication on solar energy prediction), NLP, and unsupervised learning, using Python, 
-        scikit-learn, and React. Before and during my MS in Applied Computer Science, I spent half adecade in 
-        client-facing roles, most recently as Head Bartender and previouly earned a psychology degree from Boston University 
+        scikit-learn, and React. Before and during my MS in Applied Computer Science, I spent half a decade in
+        client-facing roles, most recently as Head Bartender, and previously earned a psychology degree from Boston University 
         along the way. That combination shapes how I build: technically rigorous, but always with the end user in mind.
         </p>
       </section>
