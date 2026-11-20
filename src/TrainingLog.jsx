@@ -4,8 +4,8 @@ import logLines from './logLines'
 // Faint terminal log that scrolls in the background, built from real results.
 // Tweak these to taste:
 const VISIBLE_LINES = 60     // how many lines stay on screen
-const TYPE_SPEED_MS = 18     // time per character while a line types out
-const LINE_PAUSE_MS = 700    // pause after a line finishes, before the next one
+const TYPE_SPEED_MS = 8     // time per character while a line types out
+const LINE_PAUSE_MS = 250    // pause after a line finishes, before the next one
 
 function TrainingLog() {
   const reduceMotion =
