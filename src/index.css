@@ -162,3 +162,15 @@ body::after {
 section p a {
   font-family: 'JetBrains Mono', 'Courier New', monospace;
 }
+/* falling 1s and 0s sit behind everything */
+.binary-rain {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.page {
+  position: relative;
+  z-index: 1;
+}

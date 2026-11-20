@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import ProjectCard from './ProjectCard'
+import BinaryRain from './BinaryRain'
 
 const projects = [
   {
@@ -81,7 +82,9 @@ function App() {
   }
 
   return (
-    <div>
+    <>
+    <BinaryRain />
+    <div className="page">
       <header>
         <h1>Isaac Tsolak</h1>
         <p>AI Engineer</p>
@@ -138,6 +141,7 @@ function App() {
         </p>
       </section>
     </div>
+    </>
   )
 }
 
